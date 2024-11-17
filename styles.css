@@ -59,7 +59,52 @@ p {
     color: #555;
 }
 
-#home, #services, #news, #about, #contact, #faqs, #invest, #socials {
-    max-width: 800px;
+/* Mejoras para la sección de servicios y productos */
+#services {
+    max-width: 1000px;
     margin: auto;
+    text-align: center;
 }
+
+.service-item, .product-item, .special-service-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img, .product-item img, .special-service-item img {
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.service-item p, .product-item p, .special-service-item p {
+    margin: 0;
+    text-align: left;
+    color: #333;
+}
+
+/* Estilo de los encabezados dentro de los servicios */
+h3 {
+    color: #555;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Estilo para footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
